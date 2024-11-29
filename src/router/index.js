@@ -34,6 +34,12 @@ const routes = [{
             import ("@/views/sponsors/addSponsor.vue")
     },
     {
+        path: "/admin/specialists/add",
+        name: "addSpecialist",
+        component: () =>
+            import ("@/views/specialists/addSpecialist.vue")
+    },
+    {
         path: "/admin/quizzes/add",
         name: "addQuiz",
         component: () =>
